@@ -13,13 +13,13 @@ export default function Search({ setSearch }) {
   };
 
   return (
-    <div>
-      <form onSubmit={onSubmit}>
+    <div className=''>
+      <form onSubmit={onSubmit} className='form-inline'>
         <input
           type='text'
           value={newSearch.title}
           onChange={onChange}
-          className='form-control w-25'
+          className='form-control mr-2'
         />
         <button
           type='submit'

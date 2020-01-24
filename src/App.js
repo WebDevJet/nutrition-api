@@ -40,7 +40,7 @@ function App() {
       <Navbar />
 
       <div className='container mx-auto'>
-        <Search setSearch={setSearch} />
+        <Search setSearch={setSearch} className='text-center' />
         <Item items={items} />
       </div>
     </>
