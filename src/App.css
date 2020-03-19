@@ -1,14 +1,15 @@
 html {
-  background-color: #242424;
+	background-color: #242424;
 }
 body {
-  background-color: #242424;
+	background-color: #242424;
 }
 
-.btn-primary {
-  background-color: #0fd6bd;
+.btn-green {
+	background-color: #0fd6bd;
+	color: white;
 }
 
 .dark {
-  background-color: #0e0e10;
+	background-color: #0e0e10;
 }
